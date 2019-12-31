@@ -30,17 +30,18 @@ class MapPoint
 {
 public:
     typedef shared_ptr<MapPoint> Ptr;
-    unsigned long      id_;        // ID
+    unsigned long  id_;     // ID
     static unsigned long factory_id_;    // factory id
-    bool        good_;      // wheter a good point 
-    Vector3d    pos_;       // Position in world
-    Vector3d    norm_;      // Normal of viewing direction 
-    Mat         descriptor_; // Descriptor for matching 
+    bool            good_;     // wheter a good point
+                        //被观测到的次数和被匹配到的次数,作为评价它的好坏程度的指标
+    Vector3d        pos_;     // Position in world
+    Vector3d        norm_;     // Normal of viewing direction
+    Mat             descriptor_; // Descriptor for matching
     
     list<Frame*>    observed_frames_;   // key-frames that can observe this point 
     
-    int         matched_times_;     // being an inliner in pose estimation
-    int         visible_times_;     // being visible in current frame 
+    int             matched_times_;     // being an inliner in pose estimation
+    int             visible_times_;     // being visible in current frame
     
     MapPoint();
     MapPoint( 

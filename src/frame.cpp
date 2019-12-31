@@ -46,13 +46,13 @@ Frame::Ptr Frame::createFrame()
 
 double Frame::findDepth ( const cv::KeyPoint& kp )
 {
+    //cvRound 是求最接近的整数
     int x = cvRound(kp.pt.x);
     int y = cvRound(kp.pt.y);
     ushort d = depth_.ptr<ushort>(y)[x];
-    if ( d!=0 )
-    {
+    if (d!=0)
+        //对所有 depth 除以一个 camera_里的 depth 尺度
         return double(d)/camera_->depth_scale_;
-    }
     else 
     {
         // check the nearby points 

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myslam"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\opencv4\;CMake Files\..\..\..\..\..\usr\local\opencv4\lib\;CMake Files\..\..\..\..\..\usr\local\opencv4\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\opencv4\lib\cmake\opencv4\;CMake Files\..\slambook-master\;CMake Files\..\slambook-master\3rdparty\;CMake Files\..\slambook-master\3rdparty\Sophus\;CMake Files\..\slambook-master\3rdparty\Sophus\build\;CMake Files\cmake_modules\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aruchid/aruchid/code/myslam/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aruchid/aruchid/code/myslam/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aruchid/aruchid/code/myslam/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myslam">
+				<Option output="/home/aruchid/aruchid/code/myslam/lib/libmyslam.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aruchid/aruchid/code/myslam/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aruchid/aruchid/code/slambook-master/3rdparty/Sophus"/>
+					<Add directory="/home/aruchid/aruchid/code/myslam/include"/>
+					<Add directory="/usr/local/opencv4/include/opencv4"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 myslam"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myslam/fast">
+				<Option output="/home/aruchid/aruchid/code/myslam/lib/libmyslam.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aruchid/aruchid/code/myslam/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aruchid/aruchid/code/slambook-master/3rdparty/Sophus"/>
+					<Add directory="/home/aruchid/aruchid/code/myslam/include"/>
+					<Add directory="/usr/local/opencv4/include/opencv4"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 myslam/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_vo">
+				<Option output="/home/aruchid/aruchid/code/myslam/bin/run_vo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aruchid/aruchid/code/myslam/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aruchid/aruchid/code/slambook-master/3rdparty/Sophus"/>
+					<Add directory="/home/aruchid/aruchid/code/myslam/include"/>
+					<Add directory="/usr/local/opencv4/include/opencv4"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 run_vo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_vo/fast">
+				<Option output="/home/aruchid/aruchid/code/myslam/bin/run_vo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aruchid/aruchid/code/myslam/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aruchid/aruchid/code/slambook-master/3rdparty/Sophus"/>
+					<Add directory="/home/aruchid/aruchid/code/myslam/include"/>
+					<Add directory="/usr/local/opencv4/include/opencv4"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 run_vo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aruchid/aruchid/code/myslam/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/camera.cpp">
+			<Option target="myslam"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/config.cpp">
+			<Option target="myslam"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/frame.cpp">
+			<Option target="myslam"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/g2o_types.cpp">
+			<Option target="myslam"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/map.cpp">
+			<Option target="myslam"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/mappoint.cpp">
+			<Option target="myslam"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/visual_odometry.cpp">
+			<Option target="myslam"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/test/run_vo.cpp">
+			<Option target="run_vo"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/../../../../../usr/local/opencv4/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv4\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/../../../../../usr/local/opencv4/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv4\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/../../../../../usr/local/opencv4/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv4\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/../../../../../usr/local/opencv4/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv4\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/../slambook-master/3rdparty/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\slambook-master\3rdparty\Sophus\build\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/cmake_modules/FindG2O.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/aruchid/aruchid/code/myslam/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

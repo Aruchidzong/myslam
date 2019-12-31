@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aruchid/aruchid/code/myslam/test/run_vo.cpp
+fstream
+-
+boost/timer.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/viz.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+myslam/config.h
+/home/aruchid/aruchid/code/myslam/test/myslam/config.h
+myslam/visual_odometry.h
+/home/aruchid/aruchid/code/myslam/test/myslam/visual_odometry.h
+
